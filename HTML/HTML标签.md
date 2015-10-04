@@ -16,7 +16,7 @@
  * 浮动信息（鼠标悬浮时出现）
 
 #HTML标签
-
+![HTML tag](img/tags.png)
 
 ##文档章节
 * body
@@ -28,12 +28,14 @@
 * footer
 * hx
 
-
+![part](img/part.png)
 
 ##标题
 * 标题（h1~h6）
 
+![title](img/title1.png)
 
+![title](img/title2.png)
 
 ##文本
 * 超链接
@@ -69,9 +71,9 @@ target属性可以为_self（当前窗口打开，默认），_blank（新窗口
 技术术语
 
 ##组合内容
+![div](img/div.png)
 * div
  - 分区
-
  - 其他标签的容器
 * 段落
  * p
