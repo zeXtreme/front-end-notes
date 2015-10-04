@@ -40,17 +40,14 @@
  * a
     - 创建指向另一个文档的链接
 target属性可以为_self（当前窗口打开，默认），_blank（新窗口打开），或者一个iframe的name
-    - 创建一个文档内部的锚点
-```html
-<a href="#pay">点击支付</a><!-- 点击后跳转到id为pay的标签 -->
-<div id="pay"></div>
-```
-    - 链接到Email地址
+    - 创建一个文档内部的锚点  
+`<a href="#pay">点击支付</a><!-- 点击后跳转到id为pay的标签 --><div id="pay"></div>`
+    - 链接到Email地址  
 `<a href="mailto:zwy@zwy.me">联系我</a><!-- 点击之后打开系统默认的邮件客户端 -->`
 * 强调
  * em，strong
-    - em为语意上的强调（样式默认斜体）
-    - strong为重要性的强调（样式默认粗体）
+    - em为语意上的强调（样式默认*斜体*）
+    - strong为重要性的强调（样式默认**粗体**）
 * 行内容器
  * span
 无任何语意，用于同一行文字中不同样式
@@ -111,20 +108,22 @@ target属性可以为_self（当前窗口打开，默认），_blank（新窗口
  * 大段引用
 
 ##嵌入资源
-* img嵌入图片
+* img嵌入图片  
 `<img src="../cover.jpg" alt="封面"/><!-- alt属性会在图片加载失败时在占位框中显示 -->`
-* iframe嵌入页面
+* iframe嵌入页面  
 `<iframe src="http://www.163.com"></iframe>`
 * object，embed嵌入外部资源
- - object
-```html
+ * object
+ * 
+ ```html
 <object type="application/x-shockwave-flash">
     <param name="movie" value="http://pdfReader.swf"/>
     <param mame="flashvars" value="http://book.pdf"/>
 </object>
 ```
- - embed
-```html
+ * embed
+ * 
+ ```html
 <embed type="application/x-shockwave-flash" src="http://pdfReader.swf" width="640" height="480"/>
 ```
 * video嵌入视频(html5)
