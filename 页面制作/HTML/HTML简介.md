@@ -2,7 +2,7 @@
 * ` <!DOCTYPE>`
  * 首行、顶格
 
-#HTML文档头部（`<head>`）
+#HTML文档头部\(`<head>`\)
 * `<mata charset="utf-8">`
  * charset必须在第一行
 * `<title>`
@@ -14,4 +14,4 @@
 * `<link>`
  * 引入样式或者favicon
 
-#HTML文档主体（`<body>`）
+#HTML文档主体\(`<body>`\)
